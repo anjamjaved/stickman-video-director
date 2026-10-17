@@ -22,6 +22,7 @@ Require these before planning:
     - `Style 2A (Modern Studio Tech)`: pure white high-key studio, subtle light-gray perspective grid, floating cyan/blue glass UI
     - `Style 2B (Cinematic Story)`: full-color narrative environments, cinematic lighting & depth
   - `Style 3 (Prehistoric Hand-Drawn / Dark Comedy)`: expressive white filled heads, black stick limbs, animal-hide costumes and earthy prehistoric settings; story-specific casting
+  - `Style 4 (Cozy Storytelling / 治愈故事风)`: expressive minimalist white-filled characters with dark stick limbs in full-color 2D cartoon environments; varied story locations and cinematic shot changes
   - `Style 6 (History Stickman)`: cel-shaded cartoon with white filled heads, black stick limbs and historical costume; Rome is the first era pack, and the user names the era for other periods
 
 If aspect ratio or visual style is missing, ask for all missing items in one concise message and stop. If duration is omitted, default to 60 seconds (6 clips). If a user provides a duration not divisible by 10, round to the nearest 10-second multiple. If a user specifies only light or dark theme, default to Style 1. Never select an aspect ratio or style silently. Do not re-ask choices already supplied.
@@ -42,6 +43,8 @@ Topic approval, schedule pressure, or approval of an older draft is not approval
 
 For Style 3, read `references/prehistoric-dark-comedy.md` before planning. Its casting, story rhythm, palette and continuity rules override the generic no-idle, device-count and five-stage discussion-ending rules below. Use setup → escalation → ironic payoff for narrative shorts; do not force a discussion question into a visual punchline. This is a visual storytelling style, not a claim about actual prehistory.
 
+For Style 4, read `references/cozy-storytelling.md` before planning and prompt assembly. Default each new ten-second segment to a different recognizable story setting, unless the user explicitly requests one location or approves a deliberate return. Preserve characters, drawing grammar, important props, movement direction and narrator—not an identical table or background across the whole video. Name the location cuts and any time jumps in Phase A. This is full-color cartoon storytelling, not a hand-drawn/sketchbook mode and not a claim of photorealistic 3D backgrounds.
+
 For Style 6, read `references/history-stickman.md` before planning. If the era is missing, ask for it with the other setup items; Rome is available as a ready pack, and any other era gets a drafted era pack in Phase A for approval. Its cast, tone, era-pack, crowd and non-graphic-violence rules override the generic no-idle, device-count and mandatory discussion-ending rules below; use the five-stage flow for explainers and setup → escalation → turning point for narrative shorts. History is stylized, so do not present invented scenes or details as fact.
 
 - Structure every script using the 5-stage high-completion flow:
@@ -61,12 +64,13 @@ For Style 6, read `references/history-stickman.md` before planning. If the era i
   - No detailed eyes, pupils, or photorealistic features (avoids bug-eye deformation).
 - For Style 2A (Modern Studio Tech), enforce: `in a modern bright white studio space with subtle light-gray perspective grid lines on the floor plane. High-key studio lighting, clean white negative space, sleek glowing cyan and electric blue glass holographic UI elements.` Always include negative constraint: `STRICTLY MINIMALIST, NO CIRCUIT BOARD TEXTURES, NO SCI-FI WALL PANELS, NO CRACKED CONCRETE.`
 - For Style 2B (Cinematic Story), specify full-color narrative setting and cinematic lighting while preserving the 2D animated stick-figure character design.
+- For Style 4, freeze each approved character's complete anchor and repeat it in every clip where that role appears. Separate static design from first-frame positions, timed prop transfers and final states; changing scene does not reset prop ownership or the narrator. Read its reference for shot variety and visual acceptance checks.
 - For all styles, avoid abstract liquid/shape morphing. Drive motion with concrete character actions (leaping, touching glass, drawing luminous lines, opening doors) with timed beats across `[0–3s]`, `[3–7s]`, and `[7–10s]`. Never leave the character idle.
 - For **all styles**, apply `references/voice-continuity.md`: choose a complete video-level voice profile in Phase A, then repeat its full frozen English block verbatim in every clip. Different videos may choose different voices; a scene/style/character change must not recast the narrator. Lock timbre, register, accent, texture, delivery, pace and recording treatment, not just "same narrator". Keep emotional progression in visuals/music. Style-specific music rules never override this shared voice contract. Mandate BGM continuity from clip 1.
 - Treat narration as audio-only (`Audio voiceover only, strictly no speech bubbles, no dialogue boxes`). Quote exact dialogue and forbid alteration, repetition, captions, subtitles, or visual transcription.
 - Never place technical color notation (hex, RGB, Pantone) inside generation prompts.
 - Default generated clips to no visible words, letters, numbers, or interface copy. Put optional two-to-five-word overlays in a separate post-production note.
-- Match every clip ending to the next clip opening.
+- Match every clip ending to the next clip opening through action, an important prop, screen direction or a planned cut. Style 4 uses deliberate scene changes or approved time jumps; it does not require the same background in adjacent clips.
 - Do not invent unsupported facts, statistics, quotations, or product claims.
 
 ## Revision rules

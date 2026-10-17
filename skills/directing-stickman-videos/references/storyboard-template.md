@@ -4,6 +4,8 @@ Use this contract for Phase A. Present a readable production proposal and stop f
 
 Style 3 (Prehistoric Hand-Drawn / Dark Comedy) is also supported. Before planning it, read `prehistoric-dark-comedy.md`; its cast-card, earthy palette, setup/escalation/payoff and reaction-pause rules override the generic five-stage, mandatory discussion-ending and device-count checks here. Include distinguishable cast cards and a location/prop continuity plan in Phase A. Treat the story as fictional analogy, not invented historical fact.
 
+Style 4 (Cozy Storytelling / 治愈故事风) uses `cozy-storytelling.md`. In Phase A name a different recognizable main setting for each new ten-second segment by default, plus wide/close/moving shots inside it. Lock character design, important props and narration; scenery changes intentionally. Respect an explicit single-location request or approved callback. Do not call this style hand-drawn or require the same table/room across all segments.
+
 Style 6 (History Stickman) is also supported. Before planning it, read `history-stickman.md`; its era-pack, cast-card, crowd, tone and non-graphic-violence rules override the generic five-stage, mandatory discussion-ending and device-count checks here for narrative shorts. Include the era pack (the ready Rome pack, or a drafted pack for any other era), distinguishable cast cards and a location/prop continuity plan in Phase A. State when scenes are fictional or stylized rather than historical record.
 
 ## Rewrite the source
@@ -118,7 +120,7 @@ Changing ratio requires new staging, camera paths, transition geometry, and over
 
 ## Continuity
 
-End each row with a visible interface that the next row inherits: a pose, moving object, filled frame, travel direction, shape, or camera motion. Name both sides of every connection in the proposal.
+End each row with a visible interface that the next row inherits: a pose, moving object, filled frame, travel direction, shape, or camera motion. Name both sides of every connection in the proposal. For Style 4, an approved location cut or time jump may replace literal background matching: state what continues (character, prop, direction or story action) and what changes (place/time). Do not spend all N clips at the same desk unless explicitly requested.
 
 ## Confirmation ending
 

@@ -53,9 +53,11 @@ assert check_video(example_prompts[6:]) == male
 assert female != male, "Different videos cannot choose different voices"
 
 for filename in ("SKILL.md", "references/style-catalog.md", "references/storyboard-template.md",
-                 "references/omni-flash-prompt-contract.md", "references/prehistoric-dark-comedy.md"):
+                 "references/omni-flash-prompt-contract.md", "references/prehistoric-dark-comedy.md",
+                 "references/cozy-storytelling.md"):
     assert "voice-continuity.md" in (SKILL / filename).read_text(), f"Missing shared route: {filename}"
 assert "Style 1 Light/Dark, Style 2A, Style 2B and Style 3" in voice_doc
+assert "Style 4 Cozy Storytelling" in voice_doc
 assert "multi-speaker" in voice_doc and "explicitly silent video" in voice_doc
 assert "Other voice profiles and styles have not had separate provider-backed audio comparisons" in voice_doc
 

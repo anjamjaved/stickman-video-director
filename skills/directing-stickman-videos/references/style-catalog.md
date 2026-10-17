@@ -12,9 +12,12 @@ This catalog defines the supported visual styles for `directing-stickman-videos`
 | **Style 2A** | Modern Beanie - Studio Tech (极简科技风) | Pure white high-key studio, subtle light-gray perspective grid, glowing cyan/blue glass UI | Tech tutorials, AI tool breakdowns, career insights, methodology breakthroughs | Red beanie (no pom-pom), yellow t-shirt, black stick limbs, smooth 2D animation |
 | **Style 2B** | Modern Beanie - Cinematic Story (彩色故事风) | Full-color narrative environments, cinematic lighting & depth (warm room, dusk, desert, summit) | Emotional storytelling, personal growth, motivational journeys, narrative hooks | Same red beanie & yellow t-shirt figure staged inside rich environmental lighting |
 | **Style 3** | Prehistoric Hand-Drawn / Dark Comedy (史前手绘 / 黑色幽默) | Earthy prehistoric environments, warm fire accents, subtle paper texture | Satirical stories, visual analogies, ironic callbacks | White filled heads, expressive cartoon faces, black stick limbs, variable story-specific cast |
+| **Style 4** | Cozy Storytelling (治愈故事风) | Full-color 2D cartoon locations, gentle atmospheric light, varied cinematic shots | Relatable life stories, emotional growth, educational storytelling | White filled round head and slim torso, dark stick limbs, simple expressive face |
 | **Style 6** | History Stickman (历史火柴人) | Polished cel-shaded cartoon with thick black outlines, sunlit painterly landscapes; Rome is the first era pack, other eras plug into the same grammar | Historical explainers, rise-and-fall arcs, strategy and leadership lessons, battles, daily life, modern analogies in historical dress | White filled round heads, simple black eyes/brows/mouths, thin black stick limbs under era costume, variable story-specific cast |
 
 For Style 3 read `prehistoric-dark-comedy.md`. It overrides this catalog's generic motion and piano rules. Fix the drawing grammar across stories, not one universal face; fix each approved character within a story.
+
+For Style 4 read `cozy-storytelling.md`. Treat locations as story beats, not one universal room. Its English display name is **Cozy Storytelling**; do not rename it Sketchbook Stories, hand-drawn, or prehistoric.
 
 For Style 6 read `history-stickman.md`. It holds the fixed drawing grammar, the Rome era pack, the template for new eras, and rules that override this catalog's generic motion, piano and discussion-ending rules. Fix the grammar across eras and stories; fix each approved character within a story.
 
@@ -120,9 +123,19 @@ Negative constraints: no photorealistic human skin or faces, no 3D humanoid CGI 
 
 ---
 
-## 4. Universal Audio Continuity Contract
+## 4. Style 4: Cozy Storytelling (治愈故事风)
 
-Voice continuity is a shared foundation for **all styles**, including Style 3. Apply `voice-continuity.md` before style-specific music rules. Different videos can choose different voices, while all clips of one video repeat one complete approved voice profile. Keep voice identity separate from the musical arc.
+Minimalist expressive characters inside colorful cartoon worlds: an office, a metro platform, a street-side cafe, a park or another story-appropriate setting. Use close action inserts, wide establishing views, lateral tracking and motivated location cuts. Warmth belongs to the visual treatment; preserve the source's conflict and meaning rather than making every topic cheerful.
+
+Each new ten-second segment normally establishes a different location. Keep the character, important props, screen direction and full voice profile consistent, while deliberately changing scenery. A new camera angle on the same desk is not a substitute for a new story location. Single-location requests and approved callbacks remain valid exceptions.
+
+Use the full character anchor, prop-state rules and acceptance checklist in `cozy-storytelling.md`; do not inherit Style 1's hollow-head/no-face/no-filled-body bans or Style 3's crude sketch/animal-hide rules.
+
+---
+
+## 5. Universal Audio Continuity Contract
+
+Voice continuity is a shared foundation for **all styles**, including Styles 3 and 4. Apply `voice-continuity.md` before style-specific music rules. Different videos can choose different voices, while all clips of one video repeat one complete approved voice profile. Keep voice identity separate from the musical arc.
 
 ### Narrator Voice Lock
 ```text
@@ -142,7 +155,7 @@ This is the user-accepted male example, not a compulsory voice for every project
 
 ---
 
-## 5. Visual Beat Pacing Template (10-Second Clip)
+## 6. Visual Beat Pacing Template (10-Second Clip)
 
 Every prompt must divide its 10 seconds into three active narrative beats:
 
