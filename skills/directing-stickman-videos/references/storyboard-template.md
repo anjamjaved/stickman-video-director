@@ -4,6 +4,8 @@ Use this contract for Phase A. Present a readable production proposal and stop f
 
 Style 3 (Prehistoric Hand-Drawn / Dark Comedy) is also supported. Before planning it, read `prehistoric-dark-comedy.md`; its cast-card, earthy palette, setup/escalation/payoff and reaction-pause rules override the generic five-stage, mandatory discussion-ending and device-count checks here. Include distinguishable cast cards and a location/prop continuity plan in Phase A. Treat the story as fictional analogy, not invented historical fact.
 
+Style 6 (History Stickman) is also supported. Before planning it, read `history-stickman.md`; its era-pack, cast-card, crowd, tone and non-graphic-violence rules override the generic five-stage, mandatory discussion-ending and device-count checks here for narrative shorts. Include the era pack (the ready Rome pack, or a drafted pack for any other era), distinguishable cast cards and a location/prop continuity plan in Phase A. State when scenes are fictional or stylized rather than historical record.
+
 ## Rewrite the source
 
 Create one natural English narration scaled to approximately 20–25 words per 10-second clip based on the target duration (e.g. ~60–75 words for 30s, ~120–150 words for 60s default, ~360–450 words for 3min, ~600–750 words for 5min).
@@ -24,7 +26,7 @@ Present these items in order:
 
 1. English title and reference-language title
 2. Core message and opening hook
-3. Chosen aspect ratio (`16:9` or `9:16`), target duration (in 10s multiples), and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, or Style 2B Cinematic Story)
+3. Chosen aspect ratio (`16:9` or `9:16`), target duration (in 10s multiples), and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, Style 2B Cinematic Story, Style 3 Prehistoric, or Style 6 History Stickman with its era)
 4. Narrator's complete video-level voice profile from `voice-continuity.md` (identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment), English word count, and estimated duration
 5. Up to three saturated accent colors (for Style 1) or visual palette/environment mood (for Style 2), named in ordinary language, and what each represents
 6. BGM direction, emotional turn, tone, and narrative arc
